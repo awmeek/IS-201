@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Font styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #FF5733; /* Orange color for h1 */
+}
+
+/* Styles for team info */
+.team-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Styles for embedded Tableau graph */
+.tableau-graph {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Custom positioning */
+.positioned-div {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    background-color: #c7ecee; /* Light blue */
+    padding: 10px;
+    border: 1px solid #2980b9; /* Border color */
+}
+
+/* Another positioned div */
+.another-div {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    background-color: #f9ca24; /* Yellow */
+    padding: 10px;
+    border: 1px solid #f0932b; /* Border color */
+}
+
+/* Yet another positioned div */
+.third-div {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-color: #7ed6df; /* Light turquoise */
+    padding: 10px;
+    border: 1px solid #079992; /* Border color */
+}
